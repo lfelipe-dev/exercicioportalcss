@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header  {
+    background-color: #8dfad6;
+    color: #000000;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+header li {
+    display: inline;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+header li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color:#369b94;
+    transition: padding 0.5s ease;
+    margin: 0 8px;
+    padding: 5px;
+    border-radius: 12px;
+    text-decoration: none;
+
+    
+}
+header li a:hover {
+    display: inline-block;
+    padding: 8px 8px;
+    background-color: #2fc4b7;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.articles article img {
+height: 50;
+width: 100%;
+border-radius: 10px;
+}
+
+.articles article {
+    width: 30%;
+    
+}
+
+.articles article a {
+display: inline-block;
+margin-top: 10px;
+font-weight: 600;
+margin-bottom: 10px;
+padding: 6px 12px;
+background-color: #369b94;
+color: #ffffff;
+text-decoration: none;
+border-radius: 12px;
+}
+
+.articles article a:hover {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    background-color: #2fc4b7;
+    color: #ffffff;
+    text-decoration: underline;
+    border-radius: 12px;
+}
+
+section h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article p
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports article  {
+    background-color: #8dfad6;
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+#economy article  {
+    background-color: #76f19b;
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+
+#Tecnology article  {
+    background-color: #33eeee;
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+
+#politics article  {
+    background-color: #d0f174 ;
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+section article p {
+    margin-bottom: 
+    
+}
